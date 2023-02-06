@@ -1,6 +1,8 @@
 import numpy as np
 from sklearn.ensemble import RandomForestClassifier
 import joblib
+import warnings
+warnings.filterwarnings("ignore")
 
 def label_encoder(x):
     if x == 'M':
