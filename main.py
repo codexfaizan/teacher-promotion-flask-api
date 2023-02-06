@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request, redirect
 from load_process_prediction import label_encoder, process_and_predict
-
+import warnings
+warnings.filterwarnings("ignore")
 #Declaring the flask object
 app = Flask(__name__)
 
